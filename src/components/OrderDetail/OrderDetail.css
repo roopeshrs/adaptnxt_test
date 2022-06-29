@@ -1,0 +1,72 @@
+thead{
+    background-color: #eeeeee;
+}
+
+tr{
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(184,184,184,1);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(184,184,184,1);
+    box-shadow: 0px 1px 0px 0px rgba(184,184,184,1);
+}
+
+th{
+    border-right: 1px solid black;
+}
+
+th:last-child {
+    border-right: none;
+}
+
+td, th{
+    min-width: 30px;
+    text-align: left;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.channelImg{
+    height: 30px;
+    object-fit: contain;
+}
+
+th .MuiSvgIcon-root{
+    font-size: small;
+    cursor: pointer;
+}
+
+.order__statusPending{
+    border: 1px solid #3ED625;
+    border-radius: 3px;
+    padding: 5px;
+    color: #3ED625;
+    font-weight: bold;
+}
+
+.customer_name{
+    min-width: 200px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.pagination__prevBtn, .pagination__nextBtn{
+    cursor: pointer;
+    background-color: #fff;
+    color: #B8B8B8;
+    border: 1px solid #B8B8B8;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.pagination__currentPageNo{
+    padding: 8px;
+    border: 1px solid #0047AB;
+    color: #0047AB;
+    margin: 0 8px;
+}
+
+.pagination .MuiSvgIcon-root{
+    font-size: small;
+}

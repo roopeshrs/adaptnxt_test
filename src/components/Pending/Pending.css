@@ -1,0 +1,39 @@
+.pending__actionBtns{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pending__actionBtns button{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #B8B8B8;
+    padding: 2px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[disabled]{
+    cursor: not-allowed;
+}
+
+.pending__actionBtns button .MuiSvgIcon-root{
+    margin-right: 5px;
+}
+
+.pending__leftActionBtns{
+    display: flex;
+    align-items: center;
+}
+
+.pending__leftActionBtns button{
+    margin-right: 10px;
+}
+
+.pending__rightActionBtns button{
+    background-color: #0047AB;
+    color: #fff;
+    border: 1px solid #0047AB;
+}

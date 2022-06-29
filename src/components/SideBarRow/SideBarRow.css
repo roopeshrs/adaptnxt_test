@@ -1,0 +1,47 @@
+.sideBarRow{
+    display: flex;
+    align-items: center;
+}
+
+.sideBarRow__icon{
+    color: #000;
+    font-size: large !important;
+    padding-left: 10px;
+}
+
+.sideBarRow__title{
+    flex: 1;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sideBarRow:hover{
+    background-color: #e7feff;
+    cursor: pointer;
+}
+
+.sideBarRow:hover > .sideBarRow__icon {
+    color: #0047AB;
+}
+
+.sideBarRow:hover > .sideBarRow__title {
+    color: #0047AB;
+    font-weight: bold;
+}
+
+.sideBarRow.selected{
+    background-color: #ADD8E6;
+    border-right-width: 5PX;
+    border-right-color: #0047AB;
+    border-right-style: solid;
+}
+
+.sideBarRow.selected > .sideBarRow__icon{
+    color: #0047AB;
+}
+
+.sideBarRow.selected > .sideBarRow__title{
+    color: #0047AB;
+    font-weight: bold;
+}

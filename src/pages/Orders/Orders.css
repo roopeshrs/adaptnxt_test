@@ -1,0 +1,45 @@
+.orders{
+    flex: 0.8;
+    height: 90vh;
+    background-color: #eeeeee;
+}
+
+.orders__heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.orders__heading > div{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    color: #0047AB;
+}
+
+.orders__menu{
+    margin-top: 25px;
+}
+
+.orders__menu a {
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+.orders__menu a:hover {
+    color: #0047AB;
+}
+
+.orders__menu a.selected{
+    border-bottom: 3px solid #0047AB;
+    color: #0047AB;
+}
+
+.orders__activeTabContent{
+    margin: 7px;
+    margin-top: 30px;
+    background-color: #fff;
+    min-height: 400px;
+}
